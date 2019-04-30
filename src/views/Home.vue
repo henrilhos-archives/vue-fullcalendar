@@ -5,6 +5,7 @@
       :plugins="calendarPlugins"
       :events="events"
       :resources="resources"
+      :slotEventOverlap="false"
     />
   </VContainer>
 </template>
